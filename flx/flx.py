@@ -1,3 +1,5 @@
+from . import util
+
 word_separators = [ ' ', '-', '_', ':', '.', '/', '\\', ]
 
 default_score = -35
@@ -30,4 +32,38 @@ def boundary(last_ch, ch):
 
 def inc_vec(vec, inc, beg, end):
     """Increment each element in `vec` between `beg` and `end` by `inc`."""
-    pass
+    inc = inc or 1
+    beg = beg or 0
+    end = end or len(vec)
+
+    while beg < end:
+        vec[beg] += inc
+        beg += 1
+
+    return vec
+
+def get_hash_for_string(str):
+    """Return hash-table for string where keys are characters.
+
+    Value is a sorted list of indexes for character occurrences.
+    """
+    result = {}
+
+    str_len = len(str)
+    index = str_len - 1
+
+    while 0 <= index:
+        ch = str[index]
+
+        if capital(ch):
+            result = util.dict_insert(result, ch, index)
+
+            down_ch = ch.lower()
+        else:
+            down_ch = ch
+
+        result = util.dict_insert(result, down_ch, index)
+
+        index -= 1
+
+    return result
