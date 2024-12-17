@@ -26,7 +26,7 @@ $ pytest
 
 ## ⚜️ License
 
-`flx_dart` is distributed under the terms of the MIT license.
+`flx.py` is distributed under the terms of the MIT license.
 
 See [`LICENSE`](./LICENSE) for details.
 
