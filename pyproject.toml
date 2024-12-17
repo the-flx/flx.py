@@ -1,0 +1,12 @@
+[project]
+description = "Rewrite emacs-flx in Python"
+authors = [
+  {name = "Jen-Chieh Shen", email = "jcs090218@gmail.com"}
+]
+maintainers = [
+  {name = "Jen-Chieh Shen", email = "jcs090218@gmail.com"}
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+
+requires-python = ">= 3.9"
