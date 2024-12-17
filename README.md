@@ -10,7 +10,7 @@
 
 WIP.
 
-## 🔧 Development
+## 🛠️ Development
 
 This project uses [PyTest][] to do the unit tests.
 
