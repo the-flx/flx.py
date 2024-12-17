@@ -8,7 +8,11 @@
 
 ## 🔨 Usage
 
-WIP.
+```py
+import flx
+
+print(flx.score("switch-to-buffer", "stb).score)  # 237
+```
 
 ## 🛠️ Development
 
