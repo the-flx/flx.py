@@ -10,6 +10,16 @@
 
 WIP.
 
+## 🔧 Development
+
+This project uses [PyTest][] to do the unit tests.
+
+Simply run `pytest` to run and discover tests:
+
+```sh
+$ pytest
+```
+
 ## ⚜️ License
 
 `flx_dart` is distributed under the terms of the MIT license.
@@ -21,3 +31,5 @@ See [`LICENSE`](./LICENSE) for details.
 
 [flx]: https://github.com/lewang/flx
 [Emacs]: https://www.gnu.org/software/emacs/
+
+[PyTest]: https://github.com/pytest-dev/pytest
