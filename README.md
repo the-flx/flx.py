@@ -1,5 +1,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Release](https://img.shields.io/github/tag/the-flx/flx.py.svg?label=release&logo=github)](https://github.com/the-flx/flx.py/releases/latest)
+[![PyPI - Version](https://img.shields.io/pypi/v/the-flx?logo=pypi)](https://pypi.org/project/the-flx/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/the-flx)](https://pypi.org/project/the-flx/)
+
 
 # flx.py
 > Rewrite emacs-flx in Python
