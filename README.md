@@ -3,7 +3,6 @@
 [![PyPI - Version](https://img.shields.io/pypi/v/the-flx?logo=pypi)](https://pypi.org/project/the-flx/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/the-flx)](https://pypi.org/project/the-flx/)
 
-
 # flx.py
 > Rewrite emacs-flx in Python
 
