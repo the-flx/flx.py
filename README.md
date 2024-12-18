@@ -7,6 +7,7 @@
 > Rewrite emacs-flx in Python
 
 [![CI](https://github.com/the-flx/flx.py/actions/workflows/test.yml/badge.svg)](https://github.com/the-flx/flx.py/actions/workflows/test.yml)
+[![Publish](https://github.com/the-flx/flx.py/actions/workflows/publish.yml/badge.svg)](https://github.com/the-flx/flx.py/actions/workflows/publish.yml)
 
 ## 🔨 Usage
 
