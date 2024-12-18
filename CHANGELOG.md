@@ -10,6 +10,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 * N/A
 
+## 0.1.1
+> Released Dec 17, 2024
+
+* fix: Publish mistake 1
+
 ## 0.1.0
 > Released Dec 17, 2024
 
