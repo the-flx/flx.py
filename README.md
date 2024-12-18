@@ -11,10 +11,10 @@
 
 ## 🔨 Usage
 
-```py
-import flx
+```python
+from flx import flx
 
-print(flx.score("switch-to-buffer", "stb).score)  # 237
+print(flx.score("switch-to-buffer", "stb").score)  # 237
 ```
 
 ## 🛠️ Development
