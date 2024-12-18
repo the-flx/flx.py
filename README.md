@@ -27,6 +27,10 @@ Simply run `pytest` to run and discover tests:
 $ pytest
 ```
 
+## 🔗 Links
+
+- [Publishing a Python Package from GitHub to PyPI in 2024](https://medium.com/@blackary/publishing-a-python-package-from-github-to-pypi-in-2024-a6fb8635d45d)
+
 ## ⚜️ License
 
 `flx.py` is distributed under the terms of the MIT license.
